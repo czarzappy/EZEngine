@@ -1,0 +1,10 @@
+*PHASE
+    *PATIENT
+    My… chest…
+
+    *DANTE
+    Quickly cut off the shirt.
+    Let’s see what we’re dealing with here.
+
+    *SCALPEL: 1	//incision ID 1 for chest_shirt_01
+*END_PHASE

@@ -1,0 +1,1361 @@
+﻿*EPISODE
+*NAME: Crazy Train
+*DESC: On a seemingly quiet morning, a commuter train derailment causes everyone to spring into action
+*THUMBNAIL: crazy_train
+
+*CUTSCENE
+*TITLE: Episode 2-1
+*SUBTITLE: Crazy Train
+*BG: Hospital_Outside
+*BGM: Hospital_1
+
+
+*NARRATOR
+Ravenheart Hospital, Charm City
+
+
+Regarded by many as one of the greatest, if not the greatest, hospital in the world.
+
+
+As you walk up the steps into the entrance hallway, you are still taken aback at the hospital’s architectural magnificence.
+
+
+The tall columns make you think of the magnitude of importance of the field of medicine and those who came before you.
+
+
+The large glass windows make you reflect on the importance of your life and the lives you help save every day.
+
+
+You know deep down that a hospital is a place of healing, but its appearance and legacy are still intimidating...
+
+
+Especially for your first week on the job.
+
+
+*BG: Hospital_Breakroom
+
+
+*NARRATOR
+Ravenheart Hospital, 2F Breakroom
+08:24 AM
+
+
+As you make your way into the breakroom, you see your coworker Annabel Lee.
+
+
+She’s sitting down and watching the local morning news on a large, wall mounted television set.
+
+
+News Anchor: It’s another beautiful summer morning in Charm City with a low chance of rain in the late afternoon...
+
+
+*ANNABEL, 2, happy
+Good morning, PROTAG. 
+Nice summer weather we’re having, yes?
+
+
+*PROTAG, 4
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, calm
+Indeed.
+
+
+*ANNABEL, calm
+Always the strong, silent type.
+*END_CHOICE
+*CHOICE
+*PROTAG, neutral
+I miss the snow, to be honest.
+
+
+*ANNABEL, calm
+Snow is beautiful but the changing seasons are refreshing.
+*END_CHOICE
+*CHOICE
+*PROTAG, happy
+Every day in Charm City is a beautiful day.
+
+
+*ANNABEL, laugh
+Oh, doctor. Always a charmer!
+*END_CHOICE
+*CHOICE
+*PROTAG, laugh
+I can’t wait to hit the beach!
+
+
+*ANNABEL, laugh
+Oh, doctor! You’re so excitable!
+
+
+*ANNABEL, calm
+My husband and I are planning to take the kids to the beach this weekend.
+It’ll be a nice relaxing time, for sure!
+
+
+*PROTAG
+That sounds like fun!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*PROTAG, neutral
+*ANNABEL, neutral
+No better way to start the morning off than with some tea, wouldn’t you say?
+
+
+*NARRATOR
+Annabel starts rummaging around the drawers for packets of tea.
+
+
+*ANNABEL, curious
+It’s gotta be around here, somewhere...
+
+
+*ANNABEL, victory
+TA-DA!
+
+
+*NARRATOR
+Annabel procures a small cardboard box with the picture of a sleeping red dragon on it.
+The label reads “Red Dragon Green Tea: Awaken the Dragon Inside!”
+
+
+*ANNABEL, happy
+A little green tea in the morning gets me charged up for the rest of the day.
+
+
+*ANNABEL, neutral
+What about you, doctor, do you prefer tea or coffee in the morning?
+
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+I drink tea as well.
+
+
+*ANNABEL, happy
+I’m sure you’re well aware of the nutritional effects of green tea.
+
+
+*NARRATOR
+Annabel excitedly pours you a cup of “Red Dragon Green Tea” and hands it to you gently.
+
+
+*ANNABEL
+There has been some scientific studies showing that green tea improves concentration and lower risk of cancer and other diseases!
+
+
+*PROTAG
+Well, if it’s good enough for dragons, it's good enough for me!
+
+
+*ANNABEL, laughing
+That’s right!
+*END_CHOICE
+*CHOICE
+*PROTAG, calm
+Coffee. Black.
+
+
+*ANNABEL, laughing
+How sophisticated. 
+
+
+*NARRATOR
+Annabel pours you a cup of coffee from the coffee maker. 
+Its powerful aroma fills the room.
+
+
+*ANNABEL
+There has been some scientific studies showing that black coffee may help prevent some diseases and lower your risk of type 2 diabetes.
+
+
+*PROTAG, smug
+It also prevents me from falling asleep during operations.
+
+
+*ANNABEL, scolding
+You better not say things like that to our patients!
+*END_CHOICE
+*CHOICE
+*PROTAG, laughing
+I chug a Bull Rush energy drink first thing in the morning.
+
+
+*ANNABEL, scolding
+You’re supposed to be a doctor!
+That’s super unhealthy! Don’t joke about things like that!
+
+
+*ANNABEL, calm
+You should really consider an alternative, like green tea!
+
+
+There has been some scientific studies showing that green tea improves concentration and lower risk of cancer and other diseases!
+
+
+*PROTAG, confused
+So… 
+
+
+*PROTAG, smug
+...is that a no on getting a Bull Rush?
+
+
+*NARRATOR
+Annabel ignores you and hands you a cup of green tea.
+
+
+*ANNABEL, scolding
+Don’t sass me.
+*END_CHOICE
+*CHOICE
+*PROTAG, curious
+Actually, I only drink water.
+
+
+*ANNABEL, content
+That’s unusual, but staying hydrated is important!
+
+
+*NARRATOR
+Annabel grabs a cup, fills it with ice water and hands it to you.
+
+
+*PROTAG, laughing
+H2O on the rocks!
+
+
+*ANNABEL, laughing
+Enjoy!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+//background changes to breakroom w/ a red filter
+*BGM: Urgent_1
+
+
+*NARRATOR
+While you and Annabel enjoy your morning drinks, the television suddenly flashes red.
+
+
+A “BREAKING NEWS” marquee crawls across the screen.
+
+
+News Anchor: This just in! A commuter train has just derailed after colliding with a delivery van!
+
+
+*PROTAG, scared
+*ANNABEL, scared
+Oh, no...
+
+
+*NARRATOR
+The TV shows aerial footage of a flipped delivery van on fire and train cars scattered amongst broken glass and metal debris.
+
+
+News Anchor: No reports of injuries or fatalities have been released yet as emergency help is currently on the way. 
+
+
+News Anchor: Stay tuned in to Channel 1 Charm City News to get the latest details on this crazy train crisis as it breaks.
+
+
+*PROTAG, serious
+*ANNABEL, sad
+I take that train for my commute!
+I would have been one of those passengers less than an hour ago...
+
+
+*PROTAG, 5, surprised
+*ANNABEL, 4, surprised
+*NARRATOR
+The door to the break room bursts open.
+
+
+*HOLIDAY, 2
+Mrs. Lee. PROTAG.
+
+
+*NARRATOR
+Dr. Holiday’s eyes briefly glance at the TV and the scenes of the wreckage before turning back to you.
+
+
+*HOLIDAY, angry
+Well? What are you waiting for, rookie?
+
+
+*ANNABEL, serious
+*PROTAG, serious
+Yeah. No time to waste. Let’s go!
+
+
+*END_CUTSCENE
+
+
+________________
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-2: tokyo drift draft
+
+
+*CUTSCENE
+*BG: Hospital_Garage
+*BGM: Urgent_1
+
+
+*NARRATOR
+You follow Annabel to the garage, rushing through the winding hallways and down a flight of stairs.
+
+
+Despite your heavy breathing and lactic acid build up in your legs, you push on. Lives are at stake. Every moment counts.
+
+
+*ANNABEL, 2
+Here it is! This is our ride.
+
+
+*NARRATOR
+Annabel leads you to a sleek and modern ambulance, nothing like the big, box-shaped wagons you are familiar with.
+
+
+There is a holographic flame decal the runs along the front and the sides of the ambulance like something out of a cheesy action movie.
+
+
+*PROTAG, 3, confused
+This looks more like a sports car than an ambulance.
+
+
+*ANNABEL, smug
+Looks more like an overgrown toy than a sports car if you ask me.
+
+
+*NARRATOR
+As you and Annabel approach, the doors swing open vertically and you get in: it's much more spacious inside than you were expecting.
+
+
+*BGM: Dante_1
+*PROTAG, neutral
+*ANNABEL, neutral
+*DANTE, 4
+Welcome aboard “The Inferno,” the fastest emergency response vehicle on four wheels.
+
+
+*NARRATOR
+You get into the passenger seat and lock into the race car-like seat belt harness.
+
+
+*ANNABEL
+This is Dante Hachiroku. He’s our fastest and most skilled EMT.
+
+
+*PROTAG, curious
+*ANNABEL, unimpressed
+*DANTE, winking
+Don’t forget most handsome!
+
+
+*DANTE, curious
+...and you are?
+
+
+*PROTAG
+PROTAG. I’m the new intern surgeon working under Dr. Holiday.
+
+
+*DANTE, intrigued
+Oh, so you’re the new kid Holiday was making a fuss over…
+
+
+*DANTE, smug
+Well, let’s see whatcha got!
+
+
+*PROTAG, startled
+*ANNABEL, startled
+
+
+*NARRATOR
+Dante presses several buttons, pulls the stick shift into gear and peels out of the Hospital’s garage.
+
+
+*BG: Highway_1
+*BGM: Dante_2
+
+
+*ANNABEL
+WOAH!
+
+
+*PROTAG, curious
+*ANNABEL, resigned
+
+
+*NARRATOR
+Dante reaches up to grab a radio microphone, clicks the button in with his thumb and begins talking to you and Annabel, even though you are only several inches apart.
+
+
+*DANTE, laughing
+Ladies and gentlemen and everyone in-between, this your captain speaking. 
+
+
+*PROTAG, concerned
+*ANNABEL, startled
+
+
+*NARRATOR
+Dante fluidly adjusts gears while driving at breakneck speed, weaving between cars on the busy highway.
+
+
+*DANTE, happy
+Welcome aboard Inferno Flight 420 with service from back there to over there.
+
+
+We ask you to keep your seatbelt fastened at all time because there’s going to be turbulence en route to the emergency site.
+
+
+*PROTAG, startled
+*ANNABEL, scared
+
+
+*NARRATOR
+Dante jerks the wheel and sharply drifts around a corner, wheels screeching.
+
+
+The air is filled with the smell of burnt rubber before coming to a complete stop.
+
+
+*PROTAG, exhausted
+*ANNABEL, exhausted
+I think we finally made it...
+
+
+*DANTE, laughing
+Thank you for choosing Dante’s Inferno, the fastest emergency response vehicle on four wheels.
+
+
+*NARRATOR
+Dante puts the radio microphone away and the side doors flip open revealing the twisted wreckage of the crash.
+
+
+*DANTE, confident
+It’s showtime, kiddo!
+
+
+*END_CUTSCENE
+
+
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-3: EMT Preop draft
+
+
+*PREOP
+*BG: PreOp_EMT
+*BGM: PreOp_1
+*VICTIMS: 3
+
+
+*DANTE, 5
+*ANNABEL, 4
+Our emergency crisis team and the Fire Department is currently extracting victims from the rubble and debris.
+
+
+We aren’t sure how many more will require treatment, but we have one patient that needs attention immediately.
+
+
+//We aren’t sure how many more will require treatment, but we have three patients that need attention immediately.
+
+
+*DANTE
+The patient is suffering from lacerations from broken glass and puncture wounds.
+
+
+//The three patients are suffering from broken bones, lacerations from broken glass and puncture wounds.
+
+
+Our job is to stabilize the patient so they can make it to the hospital for further treatment so don’t slow me down, kiddo.
+
+
+//Our job is to stabilize the patients so they can make it to the hospital for further treatment so don’t slow me down, kiddo.
+
+
+*ANNABEL
+I will assist in triage and will be sending patients to the hospital for further treatment.
+
+
+//I will assist in triage and will be sending patients to you two when I can. 
+
+
+/*
+*DANTE, laughing
+Send me some good ones, Annie.
+I haven’t had to pull a pipe out of someone’s head in a while.
+
+
+*ANNABEL, scolding
+Keep that up and you’ll be pulling a pipe out of your own head!
+
+
+*ANNABEL, serious
+Good luck, PROTAG. Save lives.
+
+
+*ANNABEL, leaves
+*PROTAG, serious
+*DANTE, serious
+Three patients with multiple injuries and more to come.
+*/
+
+
+*PROTAG
+Let’s get to it.
+
+
+*END_PREOP
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-4: EMT Operation draft
+
+
+*OPERATION
+*BG: EMT_1
+*BGM: EMT_1
+*TOOL_TIPS: DANTE
+*INITIAL_PATIENTS: 6
+
+
+//Operation script
+/*
+*NEW_PATIENT: 5                        //ID of patient
+        *APPEAR_TYPE: ACTIONS, 14
+//appears after 14 procedures are done
+        *ANNABEL, radio over
+        We’ve found a new patient under the rubble!
+        Sending your way!
+*END_NEW_PATIENT
+*/
+
+
+*PATIENT: 1
+*NAME: Hank B.
+*VITALS: 60,40                //max, current
+*PHASE: chest_shirt_01
+*WOUND_GLASS, 5
+*END_PHASE
+*PHASE
+*PATIENT
+My… chest…
+
+
+*DANTE
+Quickly cut off the shirt.
+Let’s see what we’re dealing with here.
+
+
+*SCALPEL: 1        //incision ID 1 for chest_shirt_01
+*END_PHASE
+*PHASE: chest_01
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 3
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 2
+*NAME: Melody F.
+*VITALS: 70,60
+*PHASE: leg_right_01
+*WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 3
+
+
+*PATIENT
+I think both of my legs are broken…
+Please help… It hurts so much…
+
+
+*DANTE
+Just stay still, we’re here to help.
+We need to remove the debris before dealing with the broken bones.
+*END_PHASE
+*PHASE
+        *BROKEN_LEG_CAST                //broken bone bandage 
+*END_PHASE
+*PHASE: leg_left_01
+*WOUND_CUT_LARGE, 1
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+*BROKEN_BONE
+*PATIENT
+What if I can never walk again?
+
+
+*DANTE
+I need you to calm down.
+
+
+*PATIENT
+How can I be calm when I almost died!?
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, calm
+But you survived and are going to make it.
+*ACTION_VITALS: add, 10         //add,sub,set
+*PATIENT
+... Thank you...
+*END_CHOICE
+*CHOICE
+*PROTAG, smile
+You are doing great. Hang in there just a little longer.
+*ACTION_VITALS: add, 20
+*PATIENT
+... Thank you...
+*END_CHOICE
+*CHOICE
+*PROTAG, angry
+We’re doing the best we can!
+*PATIENT
+…
+*END_CHOICE
+*END_ACTION_CHOICE
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 3
+*NAME: Stephanie H.
+*VITALS: 60,40
+*PHASE: leg_right_01
+*WOUND_CUT_SMALL, 3
+        *WOUND_GLASS, 3
+
+
+        *PATIENT
+        My son… have you seen my son?
+        
+*DANTE, radio
+ANNIE! Have you found any kids yet?
+
+
+*ANNABEL, radio over
+I will let the extraction team know a child is missing.
+
+
+*PATIENT
+Don’t save me! Save my son!
+
+
+*DANTE, angry
+We’ll save your kid when we find him!
+*END_PHASE
+*PHASE
+*ANNABEL, radio over
+I’ve found a child! Sending him to triage.
+
+
+*ACTION_NEW_PATIENT: 4                 //add new patient w/ ID 4 to list
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 4
+*NAME: Billy H.
+*VITALS: 50,40
+*PHASE: chest_02
+*WOUND_CUT_SMALL, 4
+*WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 3
+
+
+*PATIENT
+Mommy? Mommy?
+
+
+*DANTE
+We got your mom, kid. 
+Just chill out and let us take care of you.
+
+
+*PATIENT
+WAAAAAAAH!
+
+
+*DANTE
+I’m never having kids…
+
+
+*PROTAG, radio
+Annabel, make sure to reunite this child with his mother.
+
+
+*ANNABEL, radio over
+Right away, doctor.
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 5
+*NAME: Caroline B.
+*VITALS: 30,20
+*PHASE: head_02
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 4
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+
+
+*PATIENT
+My head feels funny.
+
+
+*DANTE, exasperated
+I take back what I said earlier.
+
+
+*PATIENT
+W… What?
+
+
+*DANTE, exasperated
+Don’t worry about it. Just try to stay still.
+
+
+Hey, be careful when removing that rebar. 
+Pull too hard and her brains might come out.
+
+
+*PROTAG
+Talk too much and your mouth might fall off.
+
+
+*DANTE
+That wasn’t funny.
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 6
+*NAME: Stephanie H.
+*VITALS: 60,40
+*PHASE: leg_right_01
+*WOUND_CUT_SMALL, 3
+*WOUND_CUT_LARGE, 2
+        *WOUND_GLASS, 8
+
+
+        *PATIENT
+        My son… have you seen my son?
+        
+*DANTE, radio
+ANNIE! Have you found any kids yet?
+
+
+*ANNABEL, radio over
+I will let the extraction team know a child is missing.
+
+
+*PATIENT
+Don’t save me! Save my son!
+
+
+*DANTE, angry
+We’ll save your kid when we find him!
+*END_PHASE
+*PHASE: leg_left_01
+*WOUND_STEEL_SMALL, 2                //x-ray glasses?
+*WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 3
+*END_PHASE
+*PHASE
+*ANNABEL, radio over
+I’ve found a child! Sending him to triage.
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-5: EMT Post-Op draft
+*CUTSCENE
+*BG: Crashsite_1
+*BGM: Chill?
+
+
+*PROTAG, 4
+*DANTE, 2, happy
+Good work, kid.
+
+
+I’m… I’m sorry if it seemed as if I doubted you.
+
+
+*ANNABEL, 5, happy
+What was that Dante?
+
+
+*PROTAG, laugh
+*ANNABEL, laugh
+
+
+*DANTE, embarrassed
+N-nothing! Shut up!
+
+
+*DANTE, neutral
+*ANNABEL, neutral
+How was your first EMT scenario, PROTAG?
+
+
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG, happy
+Exciting.
+
+
+I’m glad it went well.
+
+
+You were both critical to our success.
+Thank you.
+
+
+*DANTE, happy
+Just doing my job.
+
+
+*ANNABEL, happy
+It’s a team effort!
+        *END_CHOICE
+        *CHOICE
+*PROTAG, tired
+Exhausting.
+
+
+It was tough dealing with so many patients at once, but I’m glad we were able to help.
+
+
+*DANTE, laughing
+Welcome to the daily grind!
+
+
+It only gets harder from here. 
+Are you sure you’re cut out for this?
+
+
+*ANNABEL
+There will always be difficult days.
+Don’t give up.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*DANTE, smug
+Alright, enough screwing around.
+Let’s get out of here.
+
+
+*END_CUTSCENE
+________________
+*END_EPISODE
+
+*EPISODE
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-6: lunchtime draft
+*CUTSCENE
+*BG: Hospital_Cafeteria
+*BGM: Hospital_1
+
+
+*NARRATOR
+Ravenheart Hospital, 3F Cafeteria
+12:00 AM
+
+
+Your stomach starts rumbling so you decide to make your way to the Cafeteria.
+
+
+It has a variety of culinary options somewhat reminiscent of a fancy airport or mall food court.
+
+
+You hear heavy footsteps and jangle of metal spurs rush up from behind you.
+
+
+You turn quickly and are standing face-to-face with what you could only describe as a cowboy wearing scrubs.
+
+
+*BIGTEX, 4
+Howdy, partner!
+Looks like you're new to these here parts.
+
+
+*PROTAG, 2
+I’m PROTAG. And you are…?
+
+
+*BIGTEX
+They call me Big Tex!
+
+
+*BIGTEX, winking
+AND YOU can call me Big Tex!
+
+
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG, nervous
+Big Tex?
+
+
+*BIGTEX, happy
+You got it!
+*END_CHOICE
+        *CHOICE
+*PROTAG, happy
+Howdy, Big Tex!
+
+
+*BIGTEX, happy
+YEEHAW! That’s the spirit!
+*END_CHOICE
+        *CHOICE
+*PROTAG, confused
+What is happening?
+
+
+*BIGTEX, happy
+Introductions, buckaroo!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*BIGTEX, neutral
+You look famished. 
+Here, let me rustle up some grub for ya.
+
+
+*NARRATOR
+Big Tex grabs an armful of hamburgers before you can respond.
+
+
+*HOLIDAY, offscreen
+I’m afraid “grub” will have to wait…
+
+
+*BIGTEX, awed
+Big Doc…
+
+
+*NARRATOR
+Several hamburgers plop to the floor from Big Tex’s formidable grasp.
+
+
+*HOLIDAY, 4
+I’m here for you, PROTAG.
+
+
+*PROTAG
+Yes, Dr. Holiday?
+
+
+*HOLIDAY, smug
+According to Mrs. Lee and Mr. Hachiroku, you performed well today...
+
+
+*PROTAG
+Thank you.
+
+
+*HOLIDAY, serious
+But your work with the train collision remains unfinished.
+
+
+*PROTAG, concerned
+What is it?
+
+
+*HOLIDAY
+The child you saved at the site seems to be suffering from internal bleeding. We have him getting prepped for the OR.
+
+
+*BIGTEX, scared
+Little Buckaroo Billy?
+
+
+*HOLIDAY
+William needs immediate attention.
+I’m sorry to say you may need to skip your lunch, PROTAG.
+
+
+*PROTAG, neutral
+That’s alright. I can eat after the operation.
+
+
+*HOLIDAY
+The nurse that was assigned to the child had to leave early due to-
+
+
+*BIGTEX, enthusiastic
+Big Tex doesn’t need to eat to help!
+
+
+*NARRATOR
+Big Tex throws his hamburger on the floor and gets into a heroic pose.
+
+
+*HOLIDAY, disappointed
+Clean that up and prep for the OR.
+
+
+*PROTAG, serious
+Yes, ma’am.
+
+
+*END_CUTSCENE
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-7: Surgery Pre-Op draft
+*PREOP
+*BG: PreOp_Surgery
+*BGM: PreOp_1
+*VICTIMS: 1
+
+
+*BIGTEX, 4
+*HOLIDAY, 5
+Your patient today is William Harris. 
+William was found beneath some debris at the wreckage site from earlier today.
+
+
+We performed X-Rays earlier and found that William’s ribs have been broken and he may be suffering from internal hemorrhages.
+
+
+Be sure to remove any blood that pools as it will obstruct your view of any procedures that must be done.
+
+
+Mr. Dallas will be assisting you throughout this operation.
+
+
+*BIGTEX
+You can count on me!
+Big Tex will be with you till the cows come home.
+
+
+*HOLIDAY
+Please take particular care with this patient.
+
+
+William’s vitals are notably low, due to the various injuries he has received in the accident.
+
+
+*PROTAG, 2
+Big Tex, prepare the safety checklist and scrub up for the OR.
+
+
+*END_PREOP
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-8: Surgery Operation draft
+
+
+*OPERATION
+*BG: Operation_1
+*BGM: Operation_1
+*TOOL_TIPS: BIGTEX
+*INITIAL_PATIENTS: 1
+
+
+*PATIENT: 1
+*NAME: Billy H.
+*VITALS: 40,30
+*PHASE: chest_02
+*SCALPEL: 1
+
+
+*BIGTEX
+Let’s open ‘em up and give ‘em a look-see.
+*END_PHASE
+*PHASE: chest_internal_01
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 3
+*BROKEN_RIBS        //pull out bone shards, reassemble, juice
+
+
+        *BIGTEX
+        Woo-wee!
+This kid’s insides are uglier than mud on a fence.
+
+
+Clean up that blood and reset the bones.
+*END_PHASE
+*PHASE
+        *BIGTEX, surprised
+        Little Billy is still hemorrhaging blood.
+
+
+        *PROTAG
+It seems to be coming from his abdomen.
+Let’s take a closer look.
+*END_PHASE
+*PHASE: stomach
+        *SPAWNER_HEMORRHAGE
+        *HEMORRHAGE: 3
+*ULCER_SMALL: 7                //inject medicine
+*ULCER_LARGE: 4                //sterilize, cut, remove, patch, medicine
+
+
+*BIGTEX
+Billy is suffering from stomach ulcers.
+No wonder he had a tummy ache!
+*END_PHASE
+*PHASE
+        *BIGTEX
+Good work, doc!
+Let’s get this kid closed up and outta here.
+*END_PHASE
+*PHASE: chest_02
+        *SUTURE        //stitch, gel bandage
+        *BIGTEX
+I think Billy is going to be A-OK!
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+
+
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-9: Surgery Post-Op draft
+*CUTSCENE
+*BG: Hospital_WaitingRoom
+*BGM: Hospital_1
+
+
+*NARRATOR
+After the operation, you head down to the waiting room to meet with William’s mother, Stephanie.
+
+
+She seems still shaken from the events from earlier in the day as well as the wounds she sustained herself.
+
+
+Her right leg is in a cast.
+
+
+*PROTAG, 4
+Ms. Harris?
+
+
+*STEPHANIE, 2
+Yes, doctor? Is my son alright?
+
+
+*PROTAG, gentle
+Yes, ma’am. We reset his ribs and stopped the internal bleeding.
+
+
+He’ll be sore for a while as he recovers, but he’s doing great.
+
+
+*STEPHANIE, relieved
+Thank you so much. I was so worried…
+
+
+*PROTAG, neutral
+How about you, Ms. Harris? How is your leg?
+
+
+*STEPHANIE, neutral
+Sore. I’ll be on crutches for a while, but I’ll walk again.
+I was only worried about my son.
+
+
+*PROTAG
+I understand. 
+William should be coming off anesthesia now.
+
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, calm
+I’ll send Nurse Dallas to help you.
+
+
+*STEPHANIE
+You mean… Big Tex?
+
+
+*PROTAG
+Uhh… yeah. Big Tex will help you.
+*END_CHOICE
+*CHOICE
+*PROTAG, smile
+I’ll send Big Tex to help you.
+
+
+*STEPHANIE, happy
+Oh! He’s so charming…
+
+
+*PROTAG, embarrassed
+He… he sure is something!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*STEPHANIE
+Thank you, doctor.
+
+
+*END_CUTSCENE
+
+
+*CUTSCENE
+*BG: Hospital_Breakroom
+
+
+*NARRATOR
+After your consultation with the patient’s mother, you make your way to the break room to read up on medical literature.
+
+
+The stiff, plastic chair provides little comfort to your weary body after such an intense day, but the moment of quiet calm is welcome.
+
+
+You start to thumb through the pages of the textbook, skimming to find the last chapter you left off at.
+
+
+*BG: Black
+
+
+Your eyelids become heavy three sentences into the dense jargon of the text and you doze off.
+
+
+*BG: Hospital_Breakroom
+
+
+About an hour later, your buzzer goes off.
+
+
+*BGM: Urgent_1
+
+
+*PROTAG, 2, serious
+William!
+
+
+*PROTAG, leave
+
+
+You quickly jump up and sprint to their room, your textbook falls to the floor with an unceremonious thud.
+
+
+*END_CUTSCENE
+________________
+
+
+//-------------------------------------------------------------------
+
+
+//EPISODE 2-10: Wrap-up draft
+*CUTSCENE
+*BG: Hospital_Room
+*BGM: Hospital_1
+
+
+*PROTAG, 5, serious
+William, are you alright?
+
+
+*STEPHANIE, 1
+*BIGTEX, 3
+*WILLIAM, 2
+I’m okay. My tummy hurts.
+
+
+*STEPHANIE
+Thank you for checking up on Billy, PROTAG.
+Big Tex has been tending to us.
+
+
+Billy just got ancy and started hitting the buttons on his bed.
+
+
+*BIGTEX
+Don’t worry none, partner.
+I’ve been keepin’ my eye on ‘em.
+
+
+*WILLIAM
+I like Big Tex. 
+I think he’s funny.
+
+
+Do you like Big[a] Tex?
+
+
+*NARRATOR
+Big Tex laughs and strikes some wrestler poses.
+Billy thinks this is hilarious.
+
+
+*STEPHANIE
+I think we’ve had enough excitement for today, don’cha think?
+Maybe it's time to take a nap?
+
+
+*PROTAG
+I think that would be a good idea.
+Good night, William.
+
+
+*NARRATOR
+You and Big Tex walk out of the room and turn off the light.
+
+
+*BIGTEX
+Billy…
+
+
+*WILLIAM
+Yes?
+
+
+*BIGTEX
+Always be rootin, be tootin, but most of all…
+
+
+Be kind.
+
+
+*END_CUTSCENE
+*END_EPISODE

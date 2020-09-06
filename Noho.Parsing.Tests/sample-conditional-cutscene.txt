@@ -1,0 +1,31 @@
+*CUTSCENE
+
+    *LOVE_FOCUS: DANTE
+    *DANTE
+    What's up?
+    
+    *LOVE: DANTE, 1
+    *LOVE: 1
+    
+    *LOVE_MIN: DANTE, 2
+        Cutie? :D
+        
+        *DANTE, blushing
+        I mean...
+        
+        *DANTE, 5
+        Not like I meant it
+        
+        *LOVE: DANTE, -1
+        *LOVE: -1
+    *END_LOVE_MIN
+    
+    
+    *LOVE_MIN: 1
+        Oh
+    *END_LOVE_MIN
+    
+    *PROTAG
+    Nothing much
+
+*END_CUTSCENE

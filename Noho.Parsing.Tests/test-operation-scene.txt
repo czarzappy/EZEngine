@@ -1,0 +1,102 @@
+*OPERATION
+*BG: Operation_1
+*BGM: Operation_1
+*TOOL_TIPS: BIGTEX
+*INITIAL_PATIENTS: 1
+
+*PATIENT: 1
+*NAME: Billy H.
+*VITALS: 40,30
+*PHASE: chest_02
+*SCALPEL: 1
+
+*BIGTEX
+Let’s open ‘em up and give ‘em a look-see.
+
+MEDIGEL will disinfect the area. Then use the SCALPEL to open the patient.
+
+*PROTAG
+MEDIGEL then SCALPEL. Got it!
+*END_PHASE
+*PHASE: chest_internal_01
+	*SPAWNER_HEMORRHAGE
+	*HEMORRHAGE: 3
+*BROKEN_RIBS	//pull out bone shards, reassemble, juice
+
+	*BIGTEX
+	Woo-wee!
+This kid’s insides are uglier than mud on a fence.
+
+Clean up that blood and reset the bones.
+
+Use the SUCTION tool to remove the blood that pools and the FORCEPS to remove the bone fragments.
+
+*PROTAG
+SUCTION the blood. FORCEPS for the bones. Got it!
+
+*END_PHASE
+*PHASE
+	*BIGTEX, surprised
+	Little Billy is still hemorrhaging blood.
+
+	*PROTAG
+It seems to be coming from his abdomen.
+Let’s take a closer look.
+*END_PHASE
+*PHASE: stomach
+	*SPAWNER_HEMORRHAGE
+	*HEMORRHAGE: 3
+*ULCER_SMALL: 7		//inject medicine
+
+*BIGTEX
+Billy is suffering from stomach ulcers.
+No wonder he had a tummy ache!
+
+Use the medicine INJECTOR on the ulcers.
+I’ve already filled the INJECTOR with the right dosage.
+
+*PROTAG
+I need to use the medicine INJECTOR on the ulcers. I got this!
+
+*END_PHASE
+*PHASE
+*SPAWNER_HEMORRHAGE
+*HEMORRHAGE: 3
+*ULCER_LARGE: 4		//sterilize, cut, remove, patch, medigel
+
+*BIGTEX
+These big ulcers are a doozy, but I know you got this, partner!
+
+All ya gotta do is excise, patch, and sterilize.
+
+To excise, use the MEDIGEL and cut around the ulcers with the SCALPEL. Then use the FORCEPS to remove the ulcer.
+
+Afterwards, BANDAGE the wound and sterilize it with MEDIGEL.
+
+*PROTAG
+MEDIGEL, SCALPEL, FORCEPS, BANDAGE, and then MEDIGEL. Right.
+
+*BIGTEX
+You betcha’!
+
+*END_PHASE
+*PHASE
+	*BIGTEX
+Good work, Doc!
+Let’s get this youngin’ closed up and outta here.
+*END_PHASE
+*PHASE: chest_02
+	*SUTURE	//stitch, gel bandage
+	*BIGTEX
+	Stitch Billy up with the SUTURES and then sterilize with MEDIGEL.
+
+	*PROTAG
+	SUTURE then MEDIGEL.
+*END_PHASE
+*PHASE
+	*BIGTEX
+I think Billy is gonna’ be A-OK!
+*END_PHASE
+*END_PATIENT
+
+*END_OPERATION

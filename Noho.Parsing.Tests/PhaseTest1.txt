@@ -1,0 +1,3 @@
+*PHASE: chest_shirt_01
+    *WOUND_GLASS, 5
+*END_PHASE

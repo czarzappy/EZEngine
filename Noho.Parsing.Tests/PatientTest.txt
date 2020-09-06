@@ -1,0 +1,23 @@
+*PATIENT: 1
+*NAME: Hank H.
+*VITALS: 60,40	//max, current
+    *PHASE: chest_shirt_01
+    *WOUND_GLASS, 5
+    *END_PHASE
+    *PHASE
+    *PATIENT
+    My… chest…
+    
+    *DANTE
+    Quickly cut off the shirt.
+    Let’s see what we’re dealing with here.
+    
+    *SCALPEL: 1	//incision ID 1 for chest_shirt_01
+    
+    *END_PHASE
+    *PHASE: chest_01
+        *WOUND_STEEL_SMALL, 2		//x-ray glasses?
+        *WOUND_CUT_LARGE, 2
+        *WOUND_CUT_SMALL, 3
+    *END_PHASE
+*END_PATIENT

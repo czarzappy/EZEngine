@@ -1,0 +1,8 @@
+*TOOLTIP: WOUND_GLASS
+   *DEFAULT  //just use this if we don't have it defined/custom fan characters are simpler to add
+       *1: Use the FORCEPS to remove the glass
+       *2: Use MEDIGEL to heal the cuts left behind.
+   *BIGTEX
+       *1: Use them there FORCEPS to yank out that glass.
+       *2: MEDIGEL will heal those cuts in no time.
+*END_TOOLTIP

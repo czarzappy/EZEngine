@@ -1,0 +1,234 @@
+//EPISODE 2-1 draft
+//written by JT Radzai
+
+//EPISODE 2-1: breakroom draft
+
+*CUTSCENE
+*TITLE: Episode 2-1
+*SUBTITLE: Crazy Train
+*BG: Hospital_Outside
+*BGM: Hospital_1
+
+*NARRATOR
+Ravenheart Hospital, Charm City
+
+Regarded by many as one of the greatest, if not the greatest, hospital in the world.
+
+As you walk up the steps into the entrance hallway, you are still taken aback at the hospital’s architectural magnificence.
+
+The tall columns make you think of the magnitude of importance of the field of medicine and those who came before you.
+
+The large glass windows make you reflect on the importance of your life and the lives you help save every day.
+
+You know deep down that a hospital is a place of healing, but its appearance and legacy are still intimidating...
+
+Especially for your first week on the job.
+
+*BG: Hospital_Breakroom
+
+*NARRATOR
+Ravenheart Hospital, 2F Breakroom
+08:24 AM
+
+As you make your way into the breakroom, you see your coworker Annabel Lee.
+
+She’s sitting down and watching the local morning news on a large, wall mounted television set.
+
+News Anchor: It’s another beautiful summer morning in Charm City with a low chance of rain in the late afternoon...
+
+Various hospital statistics are overlaid on top of the broadcast, providing vital information for those taking a break.
+
+*ANNABEL, 2, happy
+Good morning, PROTAG. 
+Nice summer weather we’re having, yes?
+
+*PROTAG, 4
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, calm
+Indeed.
+
+*ANNABEL, calm
+Always the strong, silent type.
+*END_CHOICE
+*CHOICE
+*PROTAG, default
+I miss the snow, to be honest.
+
+*ANNABEL, calm
+Snow is beautiful but the changing seasons are refreshing.
+*END_CHOICE
+*CHOICE
+*PROTAG, happy
+Every day in Charm City is a beautiful day.
+
+*ANNABEL, laugh
+Oh, doctor. Always a charmer!
+*END_CHOICE
+*CHOICE
+*PROTAG, laugh
+I can’t wait to hit the beach!
+
+*ANNABEL, laugh
+Oh, doctor! You’re so excitable!
+
+*ANNABEL, calm
+My husband and I are planning to take the kids to the beach this weekend.
+It’ll be a nice relaxing time, for sure!
+
+*PROTAG
+That sounds like fun!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+*PROTAG, default
+*ANNABEL, default
+No better way to start the morning off than with some tea, wouldn’t you say?
+
+*NARRATOR
+Annabel starts rummaging around the drawers for packets of tea.
+
+*ANNABEL, curious
+It’s gotta be around here, somewhere...
+
+*ANNABEL, victory
+TA-DA!
+
+*NARRATOR
+Annabel procures a small cardboard box with the picture of a sleeping red dragon on it.
+The label reads “Red Dragon Green Tea: Awaken the Dragon Inside!”
+
+*ANNABEL, happy
+A little green tea in the morning gets me charged up for the rest of the day.
+
+*ANNABEL, default
+What about you, doctor, do you prefer tea or coffee in the morning?
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+I drink tea as well.
+
+*ANNABEL, happy
+I’m sure you’re well aware of the nutritional effects of green tea.
+
+*NARRATOR
+Annabel excitedly pours you a cup of “Red Dragon Green Tea” and hands it to you gently.
+
+*ANNABEL
+There has been some scientific studies showing that green tea improves concentration and lower risk of cancer and other diseases!
+
+*PROTAG
+Well, if it’s good enough for dragons, it's good enough for me!
+
+*ANNABEL, laughing
+That’s right!
+*END_CHOICE
+*CHOICE
+*PROTAG, calm
+Coffee. Black.
+
+*ANNABEL, laughing
+How sophisticated. 
+
+*NARRATOR
+Annabel pours you a cup of coffee from the coffee maker. 
+Its powerful aroma fills the room.
+
+*ANNABEL
+There has been some scientific studies showing that black coffee may help prevent some diseases and lower your risk of type 2 diabetes.
+
+*PROTAG, smug
+It also prevents me from falling asleep during operations.
+
+*ANNABEL, scolding
+You better not say things like that to our patients!
+*END_CHOICE
+*CHOICE
+*PROTAG, laughing
+I chug a Bull Rush energy drink first thing in the morning.
+
+*ANNABEL, scolding
+You’re supposed to be a doctor!
+That’s super unhealthy! Don’t joke about things like that!
+
+*ANNABEL, calm
+You should really consider an alternative, like green tea!
+
+There has been some scientific studies showing that green tea improves concentration and lower risk of cancer and other diseases!
+
+*PROTAG, confused
+So… 
+
+*PROTAG, smug
+...is that a no on getting a Bull Rush?
+
+*NARRATOR
+Annabel ignores you and hands you a cup of green tea.
+
+*ANNABEL, scolding
+Don’t sass me.
+*END_CHOICE
+*CHOICE
+*PROTAG, curious
+Actually, I only drink water.
+
+*ANNABEL, content
+That’s unusual, but staying hydrated is important!
+
+*NARRATOR
+Annabel grabs a cup, fills it with ice water and hands it to you.
+
+*PROTAG, laughing
+H2O on the rocks!
+
+*ANNABEL, laughing
+Enjoy!
+*END_CHOICE
+*END_ACTION_CHOICE
+
+//background changes to breakroom w/ a red filter
+*BGM: Urgent_1
+
+*NARRATOR
+While you and Annabel enjoy your morning drinks, the television suddenly flashes red.
+
+A “BREAKING NEWS” marquee crawls across the screen.
+
+News Anchor: This just in! A commuter train has just derailed after colliding with a delivery van!
+
+*PROTAG, scared
+*ANNABEL, scared
+Oh, no...
+
+*NARRATOR
+The TV shows aerial footage of a flipped delivery van on fire and train cars scattered amongst broken glass and metal debris.
+
+News Anchor: No reports of injuries or fatalities have been released yet as emergency help is currently on the way. 
+
+News Anchor: Stay tuned in to Channel 1 Charm City News to get the latest details on this crazy train crisis as it breaks.
+
+*PROTAG, serious
+*ANNABEL, sad
+I take that train for my commute!
+I would have been one of those passengers less than an hour ago...
+
+*PROTAG, 5, surprised
+*ANNABEL, 4, surprised
+*NARRATOR
+The door to the break room bursts open.
+
+*HOLIDAY, 2
+Nurse Lee. PROTAG.
+
+*NARRATOR
+Dr. Holiday’s eyes briefly glance at the TV and the scenes of the wreckage before turning back to you.
+
+*HOLIDAY, angry
+Well? What are you waiting for, rookie?
+
+*ANNABEL, serious
+*PROTAG, serious
+Yeah. No time to waste. Let’s go!
+
+*END_CUTSCENE

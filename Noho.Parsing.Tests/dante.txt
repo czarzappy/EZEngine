@@ -1,0 +1,535 @@
+//DANTE / EPISODE 1 / draft
+//written by JT Radzai
+
+
+*CUTSCENE
+*TITLE: Shots & Hotshots
+*SUBTITLE: Episode 1
+*LOVE_FOCUS: DANTE
+*BG: Hospital_Garage
+*BGM: Hospital_1
+
+
+*NARRATOR
+RavenHeart Hospital, Evening
+
+
+You were called to go to the Hospital Garage, immediately. Emergency Medical Services are required.
+
+
+You approach a young man standing in front of a sleek and modern ambulance, nothing like the big, box-shaped wagons you are familiar with.
+
+
+There is a holographic flame decal that runs along the front and the sides of the ambulance like something out of a cheesy action movie.
+
+
+*DANTE, 4
+Are you ready, rookie? Clock’s tickin’.
+
+
+*PROTAG, 2
+
+
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG, concerned
+I think so.
+
+
+*DANTE, grumpy
+Well, wake up scrub! This is the real deal.
+*END_CHOICE
+        *CHOICE
+*PROTAG, serious
+I was born ready.
+*LOVE: 2
+
+
+*DANTE, happy
+That’s what I’m talkin’ about!
+*END_CHOICE
+        *CHOICE
+*PROTAG, snarky
+Are you ready?
+
+
+*DANTE, unimpressed
+I bet you thought that sounded cool in your head. 
+*END_CHOICE
+        *CHOICE
+*PROTAG
+Semper Paratus.
+*LOVE: 1
+
+
+*DANTE, laughing
+This ain’t the Coast Guard, but I suppose close enough: we are in the business of saving lives.
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+Dante pats the top of the Inferno lovingly and climbs inside.You get into the passenger seat and lock into the seatbelt harness. It feels like strapping into a race car.
+
+
+*DANTE, intrigued
+Holiday was making a fuss over the new recruit. So let’s see whatcha’ got!
+
+
+*NARRATOR
+Dante presses several buttons and the console display of the vehicle lights up. Your heart jolts as the sudden volume of sound hits your ears. The lights on the dashboard pulse with the pounding bass of Eurobeat. 
+
+
+Dante pulls the stick shift into gear, and peels out of the Hospital’s garage. A hologram of a 3D map of the city appears on the dashboard with the route highlighted with a glowing line.
+
+
+*DANTE
+Pretty cool, right?
+
+
+*NARRATOR
+Dante doesn’t wait for you to answer. He reaches up to grab a radio microphone, clicks the button in with his thumb and begins talking to you, even though you are only several inches apart.
+
+
+*DANTE
+Alright, rookie, here’s the situation. There’s been a fight at “Hot Shots,” a local bar. Some say that place is haunted. Or cursed. Maybe both… 
+
+
+Anyway, two victims have been identified for us to handle, but could be more. You never know with things like this, there may be others who got hurt. It was a bar fight, after all.
+
+
+Expect broken glass. Lacerations. Possibly broken bones. We’ll see soon enough, so keep your eyes peeled.
+
+
+*NARRATOR
+Dante fluidly adjusts gears while driving at breakneck speed, weaving between cars and trucks on the busy highway. Dante steals a glance your way amidst the chaos of the road.
+
+
+*DANTE
+You look like you got something on your mind. What’s up?
+
+
+*ACTION_CHOICE, 3
+        *CHOICE
+                *PROTAG
+Why was there a fight?
+
+
+*DANTE
+I dunno. The cops are on their way to deal with that. It's not really our problem. We don’t cuff ‘em, we fix ‘em. That’s it.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                What kind of injuries should we expect?
+
+
+                *DANTE
+
+
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Haunted? Like ghosts?
+*LOVE: 1
+
+
+                *DANTE
+It's old and run down so it could just be squeaky floorboards. But it might be more. Fun to think about, right?
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Nothing. I’m ready.
+*LOVE: 1
+
+
+*DANTE
+Good, I was starting to get bored.
+                *BREAK
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*NARRATOR
+The wheels screech as Dante slams on the breaks.
+
+
+*DANTE
+Alright, we’re here.
+
+
+*END_CUTSCENE
+
+
+*CUTSCENE
+*BGM: Street
+*BG: STREET
+
+
+*NARRATOR
+You see a restless crowd gathered in front of the bar, lit by the neon sign of the bar. Dante raises his voice over the commotion and pushes his way through.
+
+
+*DANTE, angry, 4
+Outta the way! Paramedics coming through! 
+
+
+*DANTE, confused
+Rookie? Where the hell are you?
+
+
+*PROTAG, 2
+*ACTION_CHOICE
+        *CHOICE
+*PROTAG
+Push through the crowd.
+
+
+*NARRATOR
+You push your way through the crowd in an attempt to catch up and bump into a major beefcake. They do not seem to notice, but are blocking your way.
+        *END_CHOICE
+        *CHOICE
+                *PROTAG
+                Look for an opening.
+
+
+                *NARRATOR
+You look for a break in the crowd to slip by. The crowd keeps shuffling making it hard to find an opening.
+
+
+*LOVE: -1
+
+
+*DANTE, angry
+Umm, hello? We gotta job to do here!
+
+
+*NARRATOR
+At Dante’s urging, you start to push through the crowd and bump into a major beefcake. They do not seem to notice, but are blocking your way.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG, scared
+Excuse me. I need to get through.
+
+
+*NARRATOR
+The imposing figure does not seem to hear you. Suddenly an arm reaches out of the crowd and grabs onto your lapel and pulls you forward.
+
+
+*DANTE, angry
+What the hell are you doing? We got to get working and fast!
+*LOVE: -1
+
+
+*NARRATOR
+Dante returns to two men lying on the ground. They appear to be bleeding.
+        *END_CHOICE
+*CHOICE
+                *PROTAG, angry
+Move it or lose it pal!
+
+
+*NARRATOR
+The imposing figure turns slowly towards you, eyes bulging in anger. They notice your medical gear and step aside, eyes locked onto you.
+
+
+You approach Dante who is kneeling next to two men lying on the ground. They appear to be bleeding.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*DANTE, neutral
+Took you long enough. Let’s get started.
+
+
+*END_CUTSCENE
+
+
+
+
+*PREOP
+*BG: PreOp_EMT
+*BGM: PreOp_1
+*VICTIMS: 2
+
+
+*DANTE, 5
+Looks like these two chuckleheads decided to try out for MMA after putting back a few too many.
+
+
+One has a broken arm and both are suffering from lacerations. Broken glass is embedded in their arms.
+
+
+Let’s patch ‘em up quick and bring them back to the hospital for further treatment.
+
+
+*END_PREOP
+
+
+
+
+*OPERATION
+*BG: EMT_1
+*BGM: Operation_1
+*TOOL_TIPS: DANTE
+*INITIAL_PATIENTS: 3
+
+
+*NEW_PATIENT: 3                        //ID of patient
+        *APPEAR_TYPE: ACTIONS, 10
+//appears after 10 procedures are done
+        *DANTE
+Looks like someone else was hurt trying to break up the fight. Make sure to take care of ‘em, too.
+*END_NEW_PATIENT
+
+
+*PATIENT: 1
+*NAME: Chuck E.
+*VITALS: 50,40                //max, current
+*PHASE: hand_left
+*WOUND_GLASS, 3
+*BLOOD_POOL, 2
+
+
+*DANTE
+Use SUCTION to clean up the blood and FORCEPS to remove the glass. MEDIGEL will heal the cuts left by the glass.
+*END_PHASE
+*PHASE: arm_right
+        *WOUND_CUT_LARGE, 2
+*WOUND_CUT_SMALL, 3
+*BLOOD_POOL, 4
+
+
+*DANTE
+Lots of cuts. SUTURE the big ones.
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 2
+*NAME: Hank B.
+*VITALS: 60,30                //max, current
+*PHASE: arm_left
+*WOUND_GLASS, 3
+*BLOOD_POOL, 3
+
+
+*DANTE
+Use SUCTION to clean up the blood and FORCEPS to remove the glass. MEDIGEL will heal the cuts left by the glass.
+*END_PHASE
+*PHASE: arm_right
+        *BROKEN_ARM, 1
+*WOUND_CUT_SMALL, 3
+*PATIENT
+I think… I think my arm is broken.
+
+
+*DANTE
+Looks like this guy has a broken arm. Use MEDIGEL to heal those cuts and wrap the arm in BANDAGES.
+*END_PHASE
+*END_PATIENT
+
+
+*PATIENT: 3
+*NAME: Greg P.
+*VITALS: 40,20                //max, current
+*PHASE: chest
+        *DEFIBRILLATOR, 1
+
+
+*PATIENT
+I tried… to stop the fight… he hit me with a glass… 
+
+
+*DANTE
+It’s okay, bud, we’re gonna take care of you. 
+
+
+*PATIENT
+I- I- I- I’m…
+
+
+*DANTE
+He’s passing out! His heart stopped! Shit!
+
+
+*DANTE
+Grab the defibrillators. C’mon, hurry!
+*END_PHASE
+*PHASE
+        *DANTE
+        Alright, I think you stabilized him.
+
+
+        *PATIENT
+        Ughhh…
+
+
+        *DANTE
+Just hang in there, bud, we’ll be getting you outta here in no time.
+*END_PHASE
+*PHASE: face
+        *WOUND_GLASS, 3
+*BLOOD_POOL, 3
+
+
+*DANTE
+We can’t do much about the blunt force trauma, but you can get rid of the glass and stop the bleeding.
+*END_PHASE
+*END_PATIENT
+
+
+*END_OPERATION
+
+
+*CUTSCENE
+*BG: Street
+*BGM: Dante
+
+
+*PROTAG, 4
+*DANTE, 2, happy
+Nice work out there.
+I’m… sorry if it seemed like I doubted you.
+
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+Thank you.
+
+
+*DANTE, embarrassed
+A-anyway...
+*END_CHOICE
+*CHOICE
+*PROTAG, coy
+        Was that… appreciation?
+
+
+*DANTE, embarrassed
+N-nothing! Shut up!
+
+
+*LOVE: 1
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*DANTE, curious
+Remember how I said some people think “Hot Shots” is haunted? You don’t like… believe in ghosts or anything, do you?
+
+
+*ACTION_CHOICE
+        *CHOICE
+                *PROTAG
+                No. Definitely not.
+
+
+                *LOVE: -1
+
+
+                *DANTE, embarrassed
+Uh, no! Duh! Of course not! I was just seeing if you were a scaredy baby. 
+        *END_CHOICE
+        *CHOICE
+                *PROTAG, curious
+                They could be. Who knows?
+
+
+                *LOVE: 1
+
+
+                *DANTE, surprised
+Really? Yeah, me too. How could you really know for sure?
+
+
+*DANTE, curious
+I mean, it's neat to think about if ghosts do exist. Like, what’s their deal? Why do some people become ghosts and others don’t?
+        *END_CHOICE
+*CHOICE
+                *PROTAG, serious
+                Ghosts are absolutely real.
+
+
+                *PROTAG
+                In fact, I’m pretty sure I’ve seen one before.
+
+
+                *LOVE: 2
+
+
+                *DANTE, surprised
+                Woah! You’ve seen a ghost before? Holy crap!
+
+
+                *DANTE, curious
+What did it look like? Was it like a floating sheet or a little transparent Casper-thing or an old spooky lady with empty eye sockets?
+
+
+*PROTAG, smug
+I think you’ll need to see one for yourself.
+
+
+*DANTE, happy
+Oh yeah, I think you’re right!
+        *END_CHOICE
+        *CHOICE
+                *PROTAG, neutral
+I am, in fact, a ghost.
+
+
+                *LOVE: 1
+
+
+                *DANTE, laughing
+You’ve been a ghost this whole time and didn’t tell me?
+
+
+*PROTAG
+It’s like the Sixth Sense: you were supposed to find out at the end of the story, but you gone and screwed it all up!
+
+
+*DANTE, neutral
+Before this revelation, as a paramedic, the phrase “I see dead people,” used to have a different meaning.
+        *END_CHOICE
+*END_ACTION_CHOICE
+
+
+*DANTE, neutral
+Anyway, it's getting late so I’ll see ya around.
+
+
+*ACTION_CHOICE
+*CHOICE
+*PROTAG, happy
+Okay. Later, dude!
+
+
+*DANTE, happy
+Later!
+*END_CHOICE
+*CHOICE
+*PROTAG, wink
+        I’ll keep an eye out for you.
+
+
+LOVE: 1
+
+
+*DANTE, embarrassed
+…
+
+
+*DANTE, leave
+*END_CHOICE
+*END_ACTION_CHOICE
+
+
+*END_CUTSCENE
+
+
+//date w/ dante: do you believe in ghosts/aliens?
