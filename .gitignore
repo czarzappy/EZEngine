@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+
+# Jetbrains
+/.idea/.idea.ZEngine/.idea/contentModel.xml
+/.idea/.idea.ZEngine/.idea/workspace.xml
+ZEngine.sln.DotSettings.user
+.idea

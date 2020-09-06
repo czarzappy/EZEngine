@@ -1,0 +1,37 @@
+*CUTSCENE
+
+*PROTAG, 3
+
+*NARRATOR
+Choose B.
+
+*ACTION_CHOICE
+
+    *CHOICE
+    *PROTAG
+    A
+    *SET_FLAG: B, FALSE
+    *END_CHOICE
+
+    *CHOICE
+    *PROTAG
+    B
+    *SET_FLAG: B, TRUE
+    *END_CHOICE
+
+*END_ACTION_CHOICE
+
+*NARRATOR
+Let's see...
+
+*CHECK_FLAG: B, TRUE
+*NARRATOR
+Thanks for choosing B.
+*END_CHECK_FLAG
+
+*CHECK_FLAG: B, FALSE
+*NARRATOR
+Wrong choice ya dingus
+*END_CHECK_FLAG
+
+*END_CUTSCENE

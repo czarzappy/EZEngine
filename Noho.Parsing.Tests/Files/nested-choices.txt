@@ -1,0 +1,20 @@
+*ACTION_CHOICE: 2
+*CHOICE
+    *PROTAG
+    First Option
+    *ACTION_CHOICE: 2
+    *CHOICE
+        *PROTAG
+        First Option, First Choice
+    *END_CHOICE
+    *CHOICE
+        *PROTAG
+        First Option, Second Choice
+    *END_CHOICE
+    *END_ACTION_CHOICE
+*END_CHOICE
+*CHOICE
+    *PROTAG
+    Second Option
+*END_CHOICE
+*END_ACTION_CHOICE

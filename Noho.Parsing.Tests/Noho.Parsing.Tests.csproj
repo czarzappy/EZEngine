@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+        <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+        <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+        <PackageReference Include="coverlet.collector" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Noho.Parsing\Noho.Parsing.csproj" />
+      <ProjectReference Include="..\ZEngine.Core\ZEngine.Core.csproj" />
+      <ProjectReference Include="..\ZEngine.UnitTesting\ZEngine.UnitTesting.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup Label="Test Files">
+        <Content Include="Files\*.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="Episode_001.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="tooltips.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="dante.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="test.xml" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="sample-conditional-cutscene.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="g1-episode-2-draft.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="test-operation-scene.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="Operation1.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="PatientTest.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="PhaseTest1.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="PhaseTest2.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="Test Ep1 - Scene 1.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="Trauma Center_ Second Opinion Demo + Operations.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Include="Trauma Center_ Second Opinion Demo.txt" CopyToOutputDirectory="PreserveNewest" />
+        <Content Update="Files\Annabel_Episode_001.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>

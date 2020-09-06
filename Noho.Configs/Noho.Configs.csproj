@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <OutputPath>../../Noho/Assets/Plugins/Noho.Configs</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ZEngine.Core\ZEngine.Core.csproj" Private="false">
+      </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Components" />
+      <Folder Include="Factories" />
+    </ItemGroup>
+
+</Project>

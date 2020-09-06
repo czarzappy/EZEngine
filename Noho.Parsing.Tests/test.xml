@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Scene>
+    <Name>hand_left</Name>
+    <BgType>External</BgType>
+    <Entities>
+        <Entity>
+            <Tag>WOUND_GLASS</Tag>
+            <Position>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </Position>
+            <Rotation>1.4</Rotation>
+        </Entity>
+        <Entity>
+            <Tag>WOUND_GLASS</Tag>
+            <Position>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </Position>
+            <Rotation>1.4</Rotation>
+        </Entity>
+        <Entity>
+            <Tag>WOUND_GLASS</Tag>
+            <Position>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </Position>
+            <Rotation>1.4</Rotation>
+        </Entity>
+        <Entity>
+            <Tag>HEMORRHAGE</Tag>
+            <Position>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </Position>
+            <Rotation>1.4</Rotation>
+        </Entity>
+        <Entity>
+            <Tag>HEMORRHAGE</Tag>
+            <Position>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </Position>
+            <Rotation>1.4</Rotation>
+        </Entity>
+    </Entities>
+</Scene>
